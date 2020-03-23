@@ -94,7 +94,7 @@ header{
     width: 100%;
 }
 .menu li{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 2.5rem; 
     padding-bottom: 1rem;
     cursor: pointer;
@@ -160,7 +160,6 @@ header{
     .menu li a{
         margin-left: 2rem;
         margin-bottom: none;
-        border-bottom: solid 2px rgba(255, 255, 255, 0.164);
         padding-bottom: 2rem;
     }
     .menu li {
@@ -305,11 +304,12 @@ header{
     font-family: font-titulo2;
     color: #D8006F;
     font-size: 6rem;
+    
 }
 .title-servicio h1::before{
     content:'';
     position: absolute;
-    width: 8rem;
+    width: 10rem;
     height: 0.5rem;
     background-color: #D8006F;
     top: 12rem;
