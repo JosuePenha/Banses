@@ -261,7 +261,7 @@ header{
 .contenedor{
     position: absolute;
     background-color: #f2f2f2;
-    top: 65rem;
+    top: 70rem;
     width: 100%;
 }
 .content-servicios{
@@ -271,19 +271,22 @@ header{
     padding: 0;
     margin: 0;
     text-align: center;
-    justify-content: center; 
+    justify-content: center;
+    padding-top: 5rem ;   
 }
 .title-servicio h1{
     font-family: quantify;
     color: #D8006F;
     font-size: 4.5rem;
 }
-.title-servicio h1:after{
-    content: " ";
-    position: relative;
-    width: 20rem;
-    height: 1rem;
-    color: #D8006F;
+.title-servicio h1::before{
+    content:'';
+    position: absolute;
+    width: 10rem;
+    height: 0.5rem;
+    background-color: #D8006F;
+    top: 10rem;
+    margin-left: 4.2rem;
 }
 .title-servicio{
     text-align:  center;
@@ -390,7 +393,7 @@ header{
         height: 30rem;
     }
     .txt-service{
-        padding-top: 9rem ;
+        padding-top: 9rem;
         font-size: 5rem;
     }
 }
