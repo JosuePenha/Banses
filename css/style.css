@@ -246,13 +246,13 @@ header{
 }
 @media(min-width: 1024px){
     .banner{
-        margin-top: 15rem;
+        margin-top: 20rem;
     }
     .title-banner {
         margin-top: -15rem;
     }
     .txt-banner{
-        margin-top: -6rem;
+        margin-top: -5rem;
     }
 }
 
