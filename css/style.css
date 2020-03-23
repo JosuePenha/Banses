@@ -261,7 +261,7 @@ header{
 .contenedor{
     position: absolute;
     background-color: #f2f2f2;
-    top: 70rem;
+    top: 60rem;
     width: 100%;
 }
 .content-servicios{
@@ -286,7 +286,7 @@ header{
     height: 0.5rem;
     background-color: #D8006F;
     top: 10rem;
-    margin-left: 4.2rem;
+    margin-left: 4.5rem;
 }
 .title-servicio{
     text-align:  center;
