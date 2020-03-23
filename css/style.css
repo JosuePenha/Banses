@@ -247,6 +247,7 @@ header{
 @media(min-width: 1024px){
     .banner{
         margin-top: 20rem;
+        margin-bottom: 10rem;
     }
     .title-banner {
         margin-top: -15rem;
