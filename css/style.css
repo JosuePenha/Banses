@@ -396,7 +396,7 @@ header{
 }
 @media(min-width:1024px){
     .contenedor{
-        top: 65rem;
+        top: 75rem;
     }
     .content-servicios{
         width: 100%;
