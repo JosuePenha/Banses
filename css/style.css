@@ -186,7 +186,7 @@ header{
     width: 100%;
     height: 100vh;
     background-color: #000000 fixed 50% 50%;
-    margin-top: 10rem;
+    margin-top: rem;
     z-index: -1;
 }
 .title-banner img{
@@ -199,7 +199,7 @@ header{
 .title-banner{
     width: 100%;
     text-align: center;
-    margin: 0;
+    padding-top: 0rem;
 }
 .title-p{
     margin-bottom: 0rem;
@@ -207,23 +207,28 @@ header{
     color: #000000;
     text-align: center;
     font-family:quantify;
-    margin-top: 30rem;
+    padding-top: 15rem;
 }
 .title-s{
     margin: 0;
     font-size: 3.5rem;
     font-family: texto;
 }
-.title-banner img{
+.img-banner img{
     margin-top: 5rem;
 }
-.txt-banner{
+.img-banner{
+    background-image: url(../imagenes/pant-fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
     position: absolute;
     width: 100%;
     height: auto;
-    top: 50rem;
+    top: 25rem;
 }
-.txt-banner h1{
+.img-banner h1{
+    position: absolute;
     font-size: 6vw;
     height: 100%;
     color: #ffffff;
@@ -231,14 +236,19 @@ header{
     font-family: font-titulo2;
     font-weight: 2px;
     letter-spacing: 0.5rem;
+    top: 9rem;
+    width: 100% ;
 }
 
 @media(min-width: 768px){
     .banner{
         margin-top: 8rem;
     }
-    .txt-banner{
-        top: 42rem;
+    .title-banner h1{
+        margin-top: -5rem;
+    }
+    .img-banner h1{
+        top: 10rem;
     }
     .title-p{
         font-size: 5rem;
@@ -252,8 +262,8 @@ header{
     .title-banner {
         margin-top: -15rem;
     }
-    .txt-banner{
-        margin-top: -5rem;
+    .img-banner h1{
+        top: 20rem;
     }
 }
 
@@ -261,7 +271,7 @@ header{
 .contenedor{
     position: absolute;
     background-color: #f2f2f2;
-    top: 60rem;
+    top: 50rem;
     width: 100%;
 }
 .content-servicios{
@@ -394,6 +404,9 @@ header{
     .service-one,.service-two,.service-three,.service-four{
         width: 40rem;
         height: 30rem;
+    }
+    .title-banner{
+        margin-top: -20rem;
     }
     .txt-service{
         padding-top: 9rem;
