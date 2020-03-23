@@ -385,6 +385,9 @@ header{
     }
 }
 @media(min-width:1024px){
+    .contenedor{
+        top: 65rem;
+    }
     .content-servicios{
         width: 100%;
     }
