@@ -285,9 +285,9 @@ header{
 
 /*******************SERVICIOS*********************/
 .contenedor{
-    position: absolute;
+    position: relative;
     background-color: #f2f2f2;
-    top: 60rem;
+    top: 0rem;
     width: 100%;
 }
 .content-servicios{
@@ -413,7 +413,7 @@ header{
 }
 @media(min-width:1024px){
     .contenedor{
-        top: 75rem;
+        top: -5rem;
     }
     .content-servicios{
         width: 100%;
@@ -429,4 +429,51 @@ header{
         padding-top: 9rem;
         font-size: 5rem;
     }
+}
+/*******************NOSOTROS*****************************/
+.content-s{
+    background-image: url(../imagenes/fondo-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+}
+.content-nosotros h1{
+    padding-top: 5rem;
+    font-family: font-titulo2;
+    font: 700;
+    margin-top: 0;
+}
+.content-nosotros p{
+    width: 70%;
+    margin-left: 15%;
+    font-family: texto;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+.content-cart-one h1{
+    padding-top: 5rem;
+    font-family: font-titulo2;
+}
+.cart-s{
+    width: 100%;
+    margin-top: 8rem;
+}
+.cart-s img{
+    width: 10rem;
+    height: 7rem;
+}
+.cart-s h2{
+    font-family: font-titulo2;
+}
+.cart-s p{
+    font-family: texto;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: lowercase;
 }
