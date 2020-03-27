@@ -43,7 +43,7 @@ p{
   text-align: left;
 }
 .content{
-  margin: 0 3rem;
+  margin: 0 5rem;
 
 }
 svg{
@@ -460,6 +460,11 @@ header{
     padding-top: 5rem;
     font-family: font-titulo2;
 }
+.cart-icons{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
 .cart-s{
     width: 100%;
     margin-top: 8rem;
@@ -474,6 +479,44 @@ header{
 .cart-s p{
     font-family: texto;
     font-size: 1.8rem;
-    text-align: center;
+    text-align: justify;
     text-transform: lowercase;
+    width: 80%;
+    margin-left: 10%;
+}
+
+@media(min-width:768px){
+    .cart-icons{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin-top: 8rem;
+        margin-left: 0;
+    }
+    .cart-s{
+        display: flex;
+        margin:0;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart-s img{
+        justify-content: center;
+        width: 7rem;
+        height: 6rem;
+        margin-left: 0;
+    }
+    .txt-cart{
+        align-items: center;
+    }
+    .txt-cart p{
+        width: 80%;
+        font-size: 1.5rem;
+        text-align: justify;
+        margin-left: 10%;
+    }
+}
+@media(min-width:1024px){
+    .cart-icons{
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 2rem;
+    }
 }
