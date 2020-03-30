@@ -426,7 +426,7 @@ header{
 .contenedor{
     position: relative;
     background-color: #f2f2f2;
-    top: 0rem;
+    top: -2rem;
     width: 100%;
 }
 .content-servicios{
