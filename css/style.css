@@ -406,7 +406,7 @@ header{
     width: 100%;
     height: auto;
     top: 40rem;
-    animation: fadeInUp 4s;
+    animation: fadeInUp 3.5s;
 }
 .img-banner h1{
     position: absolute;
@@ -673,6 +673,7 @@ header{
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
     grid-gap: 2rem;
+    padding-bottom:3rem ;
 }
 .cart-s{
     width: 100%;
@@ -769,5 +770,102 @@ header{
     }
     .txt-cart p{
         width: 90%;
+    }
+}
+/**************NUMEROS ASCENDENTES*******************/
+.number{
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    text-align: center;
+}
+.content-number{
+    padding-top: 5rem;
+}
+.content-number h1{
+    font-family: font-titulo2;
+    color: #000000;
+} 
+.content-number h1 span{
+    color: #D8006F;
+    font: 900;
+}
+.number-up{
+    padding-top: 3rem;
+}
+.number-up p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 10rem;
+    padding-top: 2rem;
+    border: solid 1rem #D8006F;
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #D8006F;
+    font-size: 3rem;
+    text-align: center;
+    font: 700;
+}
+.number-up h2{
+    font-family: font-titulo2;
+}
+.anm-1{
+    animation: zoomIn ease 1s;
+}
+.anm-2{
+    animation: zoomIn ease 2s;
+}
+.anm-3{
+    animation: zoomIn ease 3s; 
+}
+.anm-4{
+    animation: zoomIn ease 4s;
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+  }
+
+@media(min-width:768px){
+    .content-number{
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+    }
+    .number{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(min-width: 1024px){
+    .number{
+        grid-template-columns: repeat(4, 1fr);
     }
 }
