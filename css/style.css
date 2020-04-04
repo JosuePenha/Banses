@@ -641,7 +641,7 @@ header{
     background-image: url(../imagenes/fondo-nosotro.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
     color: #000000;
 }
 .content-nosotros h1{
@@ -658,7 +658,7 @@ header{
     width: 70%;
     margin-left: 15%;
     font-family: texto;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 .content-cart-one h1{
