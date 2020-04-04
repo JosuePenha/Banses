@@ -709,6 +709,7 @@ header{
 @media(min-width:768px){
     .content-nosotros{
         height: 40rem;
+        background-size: 100%;
     }
     .content-nosotros h1{
         padding-top: 12rem;
@@ -730,17 +731,16 @@ header{
     }
     .cart-s img{
         justify-content: center;
-        width: 7rem;
-        height: 6rem;
+        /* width: 7rem;
+        height: 6rem; */
         margin-left: 0;
     }
-    .txt-cart{
-        align-items: center;
+    .txt-cart p, .txt-cart h2{
+        text-align: left;
     }
     .txt-cart p{
         width: 80%;
         font-size: 1.5rem;
-        text-align: justify;
         margin-left: 10%;
     }
     .content-cart-one h1{  
