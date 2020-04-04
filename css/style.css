@@ -680,10 +680,12 @@ header{
     margin-top: 4rem;
 }
 .cart-s img{
+    display: block;
     text-align: center;
     max-width: 9rem;
     max-height: 9rem;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-around;
     align-items: center;
 }
