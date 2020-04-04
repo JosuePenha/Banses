@@ -662,11 +662,11 @@ header{
     text-align: center;
 }
 .content-cart-one h1{
-    padding-top: 5rem;
+    padding-top: 4rem;
     font-family: font-titulo2;
-    font-size: 2srem;
+    font-size: 3rem;
     text-align: center;
-    letter-spacing: .5rem;
+    letter-spacing: 0.1rem;
 }
 .cart-icons{
     display: grid;  
@@ -677,12 +677,12 @@ header{
 }
 .cart-s{
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 .cart-s img{
     text-align: center;
-    width: 10rem;
-    height: 9rem;
+    max-width: 9rem;
+    max-height: 9rem;
     margin-left: 30%;
     justify-content: space-around;
     align-items: center;
@@ -692,15 +692,15 @@ header{
 }
 .txt-cart h2{
     font-family: font-titulo2;
-    text-align: left;
+    text-align: center;
     width: 80%;
     margin-left: 10%;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .txt-cart p{
     font-family: texto;
-    font-size: 1.8rem;
-    text-align: justify;
+    font-size: 1.5rem;
+    text-align: center;
     text-transform: lowercase;
     width: 80%;
     margin-left: 10%;
