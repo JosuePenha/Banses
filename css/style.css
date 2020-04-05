@@ -1,5 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100i,400&display=swap'); */
-
+<style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+</style> 
 @font-face{
     font-family: quantify;
     src: url(../fuentes/Quantify.ttf);
@@ -741,25 +743,27 @@ header{
 .pqt-tl p{
     text-align: center;
     margin-top: 3rem;
-    font-size: 4rem;
-    font-family: texto;
-    font-weight: 400;
+    font-size: 5rem;
+    font-family: 'Playfair Display', serif;
+    font: 700;
 }
 .pqt-tl p span{
     font-size: 2rem;
 }
 .lst-txt{
     margin-bottom: 2rem;
-    text-align: center;
-    padding: 0;
+    padding: 1rem;
     height: 38rem;
+    padding-top: 2rem;
 }
 .lst-txt li{
     list-style: none;
     margin-bottom: 2.5rem;
     font-size: 1.5rem;
     font-family: texto;
+    text-align: center;
     color: #000000;
+    text-transform: capitalize;
 }
 .btn-buy{
     padding: 2rem 8rem;
