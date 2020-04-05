@@ -50,6 +50,7 @@ svg{
     position: relative;
     margin-top: -40rem;
 }
+
 /************************HEADER**********************/
 
 header{
@@ -223,38 +224,7 @@ header{
 
 }
 /****************BANNER***********************/
-@-webkit-keyframes fadeInUp {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 100%, 0);
-      transform: translate3d(0, 100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 100%, 0);
-      transform: translate3d(0, 100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  .fadeInUp {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
-  }
+
 
 .banner{
     width: 100%;
@@ -266,111 +236,7 @@ header{
 .title-banner img{
     width: 80%;
     
-}@-webkit-keyframes bounceInLeft {
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    0% {
-      opacity: 0;
-      -webkit-transform: translate3d(-3000px, 0, 0);
-      transform: translate3d(-3000px, 0, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(25px, 0, 0);
-      transform: translate3d(25px, 0, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(-10px, 0, 0);
-      transform: translate3d(-10px, 0, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes bounceInLeft {
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    0% {
-      opacity: 0;
-      -webkit-transform: translate3d(-3000px, 0, 0);
-      transform: translate3d(-3000px, 0, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(25px, 0, 0);
-      transform: translate3d(25px, 0, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(-10px, 0, 0);
-      transform: translate3d(-10px, 0, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  .bounceInLeft {
-    -webkit-animation-name: bounceInLeft;
-    animation-name: bounceInLeft;
-  }
-  @-webkit-keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-  }
-  
+}
 /* .title-banner, .txt-banner{
     z-index: ;
 } */
@@ -405,8 +271,8 @@ header{
     position: absolute;
     width: 100%;
     height: auto;
-    top: 40rem;
-    animation: fadeInUp 3.5s;
+    top: 32rem;
+    animation: fadeInUp 3s;
 }
 .img-banner h1{
     position: absolute;
@@ -484,17 +350,16 @@ header{
 .title-servicio h1{
     font-family: font-titulo2;
     color: #D8006F;
-    font-size: 6rem;
+    font-size: 5rem;
     
 }
 .title-servicio h1::before{
     content:'';
     position: absolute;
     width: 10rem;
-    height: 0.5rem;
+    height: .5rem;
     background-color: #D8006F;
-    top: 12rem;
-    margin-left: 4.8rem;
+    top: 10rem;
 }
 .title-servicio{
     text-align:  center;
@@ -547,28 +412,7 @@ header{
     text-decoration: none;
     list-style: none;
 }
-  @-webkit-keyframes vanishOut {
-    0% {
-      opacity: 1;
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-transform: scale(1, 1);
-              transform: scale(1, 1);
-      -webkit-filter: blur(0px);
-              filter: blur(0px); }
-    100% {
-      opacity: 0;
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-      -webkit-transform: scale(2, 2);
-              transform: scale(2, 2);
-      -webkit-filter: blur(20px);
-              filter: blur(20px); } }
   
-.service-icons:hover{
-    animation: vanishOut 0.8s infinite;
-    color: #D8006F;
-}
 @media(min-width:768px){
     .contenedor{
         margin-top: -35rem;
@@ -825,35 +669,6 @@ header{
     animation: zoomIn ease 4s;
 }
 
-@-webkit-keyframes zoomIn {
-    from {
-      opacity: 0;
-      -webkit-transform: scale3d(0.3, 0.3, 0.3);
-      transform: scale3d(0.3, 0.3, 0.3);
-    }
-  
-    50% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes zoomIn {
-    from {
-      opacity: 0;
-      -webkit-transform: scale3d(0.3, 0.3, 0.3);
-      transform: scale3d(0.3, 0.3, 0.3);
-    }
-  
-    50% {
-      opacity: 1;
-    }
-  }
-  
-  .zoomIn {
-    -webkit-animation-name: zoomIn;
-    animation-name: zoomIn;
-  }
-
 @media(min-width:768px){
     .content-number{
         width: 70%;
@@ -868,4 +683,21 @@ header{
     .number{
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+/***********SECCION PAQUETES*****************/
+.content-paquete h1{
+    color: var(--color-secundario);
+    text-align: center;
+    color: #006AD8;
+    font-family: font-titulo2;
+    font-size: 5rem;
+}
+.content-paquete h1::before{
+    content:' ';
+    position: absolute;
+    width: 10rem;
+    height: .5rem;
+    background-color: #006AD8;
+    top: 10rem;
 }
