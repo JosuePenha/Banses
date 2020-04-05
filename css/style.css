@@ -692,7 +692,7 @@ header{
     color: #006AD8;
     font-family: font-titulo2;
     font-size: 5rem;
-}
+/* }
 .content-paquete h1::before{
     content:' ';
     position: absolute;
@@ -700,4 +700,4 @@ header{
     height: .5rem;
     background-color: #006AD8;
     top: 10rem;
-}
+} */
