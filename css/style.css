@@ -54,7 +54,10 @@ svg{
     position: relative;
     margin-top: -40rem;
 }
-
+a{
+    text-decoration: none;
+    list-style: none;
+}
 /************************HEADER**********************/
 
 header{
@@ -769,9 +772,10 @@ header{
     padding: 2rem 8rem;
     /* border: 2px solid #006AD8; */
     background-color: #006AD8;
-    
+    color: #ffffff;
+    transition: ease 0.5s;
 }
-.btn-buy-ok{
+.btn-buy a span{
     text-decoration: none;
     list-style: none;
     color: #ffffff;
