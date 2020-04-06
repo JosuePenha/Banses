@@ -28,3 +28,20 @@ function mostrarScrollUno() {
 }
 
 window.addEventListener('scroll', mostrarScrollUno);
+
+
+
+let animadoDos = document.querySelectorAll(".animado2");
+
+function mostrarScrollDos() {
+    let scrollTop = document.documentElement.scrollTop;
+    for ( var i=0; i < animadoDos.length; i++){
+        let alturaAnimado = animadoDos[i].offsetTop;
+        if(alturaAnimado - 500 < scrollTop) {
+            animadoDos[i].style.opacity = 1;
+            animadoDos[i].classList.add("fadeInUp");
+        }
+    }
+}
+
+window.addEventListener('scroll', mostrarScrollDos);
