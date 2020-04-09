@@ -58,6 +58,9 @@ a{
     text-decoration: none;
     list-style: none;
 }
+main{
+    background-color: #f2f2f2;
+}
 /************************HEADER**********************/
 
 header{
@@ -367,7 +370,7 @@ header{
     width: 10rem;
     height: .5rem;
     background-color: #D8006F;
-    top: 10rem;
+    margin-top: 5.5rem;
 }
 .title-servicio{
     text-align:  center;
@@ -404,14 +407,14 @@ header{
     margin-top: 0;
     padding-top: 10%;
 }
-/* .txt-service:after{
+/* .txt-service::before{
     content: ' ';
     position: absolute;
     width: 20px;
     height: 20px;
-    top: 50rem;
+    margin-top: 50rem;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #006AD8;
     text-align: center;
 } */
 .service-icons{
@@ -707,19 +710,19 @@ header{
     font-size: 5rem;
     padding-top: 5rem;
  }
-/* .content-paquete h1::before{
+.content-paquete h1::before{
     content:' ';
     position: absolute;
-    width: 10rem;
+    width: 15rem;
     height: .5rem;
     background-color: #006AD8;
-    top: 337rem;
-} */
+    margin-top: 5.5rem;
+}
 .pqt-txt{
     width: 80%;
     margin-left: 10%;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
     font-family: texto;
     font-size: 1.8rem;
 }
@@ -810,5 +813,244 @@ header{
         display: block;
         position: relative;
         top: -4rem;
+    }
+}
+
+/**********************CONTACTANOS***********/
+.content-contacto{
+    background-color: #000000;
+    height: 100%;
+}
+.content-contacto h1{
+    text-align: center;
+    padding-top: 4rem;
+    color: #ffffff;
+    font-family: font-titulo2;
+    font-size: 4rem;
+}
+.content-contacto h1::before{
+    content:'';
+    position: absolute;
+    width: 10rem;
+    height: .5rem;
+    background-color: #ffffff;
+    margin-top: 5.5rem
+}
+.contacto{
+    width: 100%;
+    margin-top: 4rem;
+}
+.campo{
+    width: 100%;
+}
+.campo label{
+    display: none;
+}
+.campo input, .campo textarea{
+    background-color: #000000;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid #D8006F;
+    color: #ffffff;
+}
+.campo input::placeholder{
+    color: #ffffff;
+    font-family: texto;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+.campo :-ms-input-placeholder,:-ms-textarea-placeholder{
+    color: #ffffff;
+    font-family: texto;
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+.campo ::-webkit-input-placeholder, :-webkit-textarea-placeholder{
+    color: #ffffff;
+    font-family: texto;
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+.campo textarea{ 
+    height: 20rem; 
+    
+}
+textarea::placeholder{
+    color: #ffffff;
+    font-family: texto;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+.btn-enviar{
+    width: 100%;
+    margin-top: 4rem;
+}
+.btn-enviar input{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 4rem;
+    width: 100%;
+    border: none;
+    background-color: #D8006F;
+    color: #ffffff;
+    font-family: texto;
+    font-size: 1.8rem;
+}
+/***********Sector mapa***********************/
+
+.mapas{
+    color: #ffffff;
+    margin-top: 5rem;
+}
+.content-iconos{
+    margin-top: 8rem;
+}
+.icon-cont{
+    width: 100%;
+    display: block;
+    margin-bottom: 3rem;
+}
+.icon-cont span i{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    color: #D8006F;
+    transition: ease 0.5s;
+    cursor: pointer;
+    border: 2px solid #D8006F;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    padding-top: 2.5rem;
+}
+.icon-cont span i:hover{
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+}
+.icon-cont p{
+    padding: 2rem;
+    text-align: center;
+    font-family: texto;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.mapa{
+    margin-top: 3rem;
+    height: 18rem;
+}
+@media(min-width:768px){
+    .content-iconos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon-cont p{
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 0;
+        margin-top: 1rem;
+    }
+    .icon-cont span{
+        margin: 0;
+    }
+    .icon-cont span i{
+        font-size: 3rem;
+    }
+    .up-icons{
+        margin-top: 8rem;
+
+    }
+
+}
+@media(min-width:1024px){
+
+    .content-iconos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .up-icons{
+        margin-top: 5rem;
+    }
+    .content-iconos{
+        width: 80%;
+        padding: 0;
+        margin-left: 10%;
+    }
+    .icons-three{
+        margin: 0;
+        margin-top: 1rem;
+        /* border-left: 1px solid #1b1b1b; */
+    }
+    .icon-cont p{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+    .icon-cont span i{
+        font-size: 3rem; 
+    }
+    .mapa{
+        height: 80%;
+        margin: 0rem 5rem 0 5rem;
+    }
+    .mapas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 5rem;
+    }
+    .btn-enviar{
+        width: 70%;
+        margin-left: 7.5%;
+        margin-top: 2rem;
+    }
+    .content-map{
+        height: 100%;
+    }
+}
+/* FOOTER */
+
+.content-footer{
+    background-color: #1f1f1f;
+    width: 100%;
+    text-align: center;
+}
+.img-footer{
+    max-width: 40rem;
+    max-height: 60rem ;
+    text-align: center;
+}
+.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1rem;
+    padding-bottom: 2rem;
+}
+.footer-end{
+    background-color: #000000;
+    padding: 2rem;
+}
+.footer-end p{
+    font-family: texto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.footer-end p span{
+    color: #919191;
+}
+@media(min-width:1024px){
+    .centro {
+        width: 40%;
+        
+    }
+    .centro li a{
+        font-size: 2.5rem;
     }
 }
