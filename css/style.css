@@ -262,30 +262,31 @@ header{
     color: #000000;
     text-align: center;
     font-family:quantify;
-    padding-top: 20rem;
+    padding-top: 15rem;
 }
 .title-s{
     animation: fadeIn 3s ;
-    margin: 0;
     font-size: 3rem;
     font-family: texto;
-    margin-top: -1rem;
+    margin-top: -5.5rem;
 }
-.img-banner img{
+/* .img-banner img{
+
     margin-top: 5rem;
 }
 .img-banner{
-    background-image: url(../imagenes/pant-fondo.png);
+    /* background-image: url(../imagenes/pant-fondo.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 110%; 
     position: absolute;
     width: 100%;
     height: auto;
     top: 32rem;
     animation: fadeInUp 3s;
 }
-.img-banner h1{
+/* .img-banner h1{
+    display: none;
     position: absolute;
     font-size: 6vw;
     height: 100%;
@@ -296,6 +297,9 @@ header{
     letter-spacing: 0.5rem;
     top: 9rem;
     width: 100% ;
+} */
+.video-banner{
+    width: 100%;
 }
 @media(min-width: 768px){
     .banner{
@@ -328,7 +332,7 @@ header{
     }
     .title-s{
         font-size: 4rem;
-        margin-top: -2rem;
+        margin-top: -6rem;
     }
     .title-banner {
         margin-top: 0rem;
@@ -345,7 +349,7 @@ header{
 .contenedor{
     position: relative;
     background-color: #f2f2f2;
-    margin-top: -14rem;
+    margin-top: -22rem;
     width: 100%;
 }
 .content-servicios{
@@ -362,7 +366,6 @@ header{
     font-family: font-titulo2;
     color: #D8006F;
     font-size: 5rem;
-    
 }
 .title-servicio h1::before{
     content:'';
@@ -388,12 +391,12 @@ header{
     margin-bottom: 3rem;
 }
 .service-one{
-    background-image: url(../imagenes/desarrollo.png)}
+    background-image: url(../imagenes/desarrollo.svg)}
 .service-two{
-    background-image: url(../imagenes/marketing.png);
+    background-image: url(../imagenes/marketing.svg);
 }
 .service-three{
-    background-image: url(../imagenes/aplicacion.png);
+    background-image: url(../imagenes/aplicacion.svg);
 }
 .service-four{
     background-image: url(../imagenes/audiovisual.png);
@@ -457,7 +460,7 @@ header{
 }
 @media(min-width:1024px){
     .contenedor{
-        margin-top: 30rem;
+        margin-top: 35rem;
     }
     .content-servicios{
         width: 80%;
@@ -476,6 +479,9 @@ header{
         width: 40%;
         margin-left: 30%;
     }
+    .title-p{
+        padding-top: 25rem;
+    }
 }
 /*******************NOSOTROS*****************************/
 .content-s{
@@ -483,7 +489,7 @@ header{
     height: 100%;
 }
 .content-cart{
-    background-image: url(../imagenes/fondo-2.png);
+    background-image: url(../imagenes/fondo-2.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -503,7 +509,8 @@ header{
     text-align: center;
     padding-top: 4rem;
     font-family: font-titulo2;
-    font: 700;
+    font-weight: 700;
+    font-size: 3rem;
     margin-top: 0;
 }
 .none{
@@ -513,8 +520,9 @@ header{
     width: 70%;
     margin-left: 15%;
     font-family: texto;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
+
 }
 .content-cart-one h1{
     padding-top: 4rem;
@@ -636,15 +644,18 @@ header{
     text-align: center;
 }
 .content-number{
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 .content-number h1{
     font-family: font-titulo2;
     color: #000000;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
 } 
 .content-number h1 span{
     color: #D8006F;
-    font: 900;
+    font: 700;
 }
 .number-up{
     padding-top: 3rem;
@@ -660,12 +671,14 @@ header{
     border-radius: 50%;
     font-family: 'Times New Roman', Times, serif;
     color: #D8006F;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     font: 700;
 }
 .number-up h2{
     font-family: font-titulo2;
+    font-size: 3rem;
+    text-align: center;
 }
 .anm-1{
     animation: zoomIn ease 1s;
@@ -693,6 +706,9 @@ header{
 @media(min-width: 1024px){
     .number{
         grid-template-columns: repeat(4, 1fr);
+    }
+    .content-number h1{
+        font-size: 4rem;
     }
 }
 
@@ -748,9 +764,10 @@ header{
     margin-top: 0;
     width: 100%;
     height: 10rem;
-    padding: 2.5rem;
+    padding: 2.8rem;
     background-color: #006AD8;
     color: #ffffff;
+    font-size: 3rem;
 }
 .pqt-tl p{
     text-align: center;
@@ -1035,13 +1052,15 @@ textarea::placeholder{
     padding-bottom: 2rem;
 }
 .footer-end{
-    background-color: #000000;
+    background-color: #1f1f1f;
     padding: 2rem;
+    border-top: 1px solid #1b1b1b;
 }
 .footer-end p{
     font-family: texto;
-    text-align: center;
+    text-align: center; 
     font-size: 1.5rem;
+    color: #666666;
 }
 .footer-end p span{
     color: #919191;
