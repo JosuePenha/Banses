@@ -75,7 +75,8 @@ header{
     height: 10rem;
 }
 .logo img{
-    width: 20rem;
+    width: 15rem;
+    padding-top: .5rem;
     margin-top: 2rem;
 }
 .icon-menu{
@@ -171,6 +172,11 @@ header{
 }
 .mostrar{
     left: 0%;
+}
+@media(min-width: 768px){
+    .logo img{
+        width: 20rem;
+    }
 }
 @media(min-width: 1024px){
 
@@ -271,7 +277,7 @@ header{
     margin-top: -5.5rem;
 }
 /* .img-banner img{
-
+c
     margin-top: 5rem;
 }
 .img-banner{
@@ -300,6 +306,7 @@ header{
 } */
 .video-banner{
     width: 100%;
+    animation: fadeInUp 3s;
 }
 @media(min-width: 768px){
     .banner{
@@ -1034,7 +1041,7 @@ textarea::placeholder{
 /* FOOTER */
 
 .content-footer{
-    background-color: #1f1f1f;
+    background-color: #0D0D0D;
     width: 100%;
     text-align: center;
 }
@@ -1052,7 +1059,7 @@ textarea::placeholder{
     padding-bottom: 2rem;
 }
 .footer-end{
-    background-color: #1f1f1f;
+    background-color: #0D0D0D;
     padding: 2rem;
     border-top: 1px solid #1b1b1b;
 }
@@ -1073,4 +1080,141 @@ textarea::placeholder{
     .centro li a{
         font-size: 2.5rem;
     }
+}
+
+/***********SECTOR DE SERVICIOS***************/
+.banner-dw-content{
+    background-color: #000000;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5rem;
+}
+.banner-dw{
+    background-image: url(../imagenes/Dw.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20rem;
+    background-position-y: 10rem;
+    background-size: 100%;
+    height: 80vh;
+    width: 100%;
+}
+.banner-dw h1{
+    color: #D8006F;
+    font-size: 3.5rem;
+    font-family: font-titulo1;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding-top: 15rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.banner-dw h1 span{
+    font-size: 4rem;
+}
+.txt-dw{
+    display: none;
+}
+@media(min-width:768px){
+    .banner-dw{
+        background-position-x: 45rem;
+        background-size: 90%;
+    }
+    .banner-dw h1{
+        font-size: 6rem;
+        margin: 0 5rem;
+        padding-left: 4rem;
+        padding-top: 9rem;
+    }
+    .banner-dw h1 span{
+        font-size: 6.5rem;
+    }
+    .txt-dw{
+        display: block;
+        width: 50%;
+        color: #ffffff;
+        font-family: texto;
+        font-size: 1.5rem;
+        text-align: justify;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+}
+@media(min-width:1024px){
+    .banner-dw{
+        background-size: 60%;
+        background-position-x: 80rem;
+    }
+    .banner-dw h1{
+        font-size: 8rem;
+        padding-left: 15%;
+    }
+    .banner-dw h1 span{
+        font-size: 9rem;
+        line-height: 8rem;
+    }
+    .txt-dw{
+        font-size: 1.8rem;
+        line-height: 1.5;
+        margin: 0 10%;
+    }
+}
+/*****************DW-TWO******************/
+.dw-two-content{
+    background-color: #0F0F0F;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+.dw-two-content h1{
+    margin: 0;
+    padding:  4rem 0 2rem 0;
+    text-align: center;
+    font-size: 4rem;
+    color: #32A6DF;
+    font-family: font-titulo1;
+}
+.dw-two-content h1::before{
+    content:'';
+    position: absolute;
+    width: 10rem;
+    height: .5rem;
+    background:-webkit-linear-gradient(left, rgba(216,0,112,1) 0%, rgba(51,224,255,1) 51%, rgba(41,68,149,1) 100%);;
+    margin-top: 5.5rem;
+}
+.dw-two{
+    background-image: url(../imagenes/Dw2.svg);
+    background-color: #0F0F0F;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: -15rem;
+    height: 100%;
+}
+.dw-two ul{
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    margin: 0;
+}
+.dw-two ul li{
+    float: right;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    text-align: justify;
+    font-family: texto;
+    list-style: none; 
+    margin-top: 1.5rem;
+}
+.dw-two ul li i{
+    align-items: center;
+    font-size: 2rem !important;
+    color: #33E1FF;
+}
+.dw-two ul li p{
+    margin: 0;
+    font-size: 1.2rem;
+    width: 80%;
+    padding-left: .5rem;
+    color: #ffffff;
 }
