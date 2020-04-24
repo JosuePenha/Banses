@@ -1086,47 +1086,67 @@ textarea::placeholder{
 .banner-dw-content{
     background-color: #000000;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     margin-top: 5rem;
+}
+.txt-dw{
+    display: block;
+    width: 55%;
+    color: #fff;
+    padding-top: 1rem;
+    text-align: justify;
+}
+.txt-dw span{
+    display: none;
 }
 .banner-dw{
     background-image: url(../imagenes/Dw.svg);
     background-repeat: no-repeat;
-    background-position-x: 20rem;
-    background-position-y: 10rem;
-    background-size: 100%;
-    height: 80vh;
-    width: 100%;
+    background-position-x: 25rem;
+    background-position-y: 18rem;
+    /* background-size: 120%; */
+    height: 100vh;
+    width: 100%; 
 }
 .banner-dw h1{
     color: #D8006F;
-    font-size: 3.5rem;
+    font-size: 8vw;
     font-family: font-titulo1;
     font-weight: bold;
     margin: 0 3rem;
-    padding-top: 15rem;
+    padding-top: 25rem;
     text-transform: uppercase;
+    padding-left: 4rem;
     line-height: 1;
+    animation: bounceInLeft 2s;
 }
 .banner-dw h1 span{
-    font-size: 4rem;
+    font-size: 8.5vw;
 }
-.txt-dw{
-    display: none;
+@media screen and (min-width:350px) and (min-width:768px){
+    .banner-dw{
+        background-image: url(../imagenes/Dw.svg);
+        background-repeat: no-repeat;
+        background-position-x: 25rem;
+        background-position-y: 18rem;
+        
+        height: 100vh;
+        width: 100%; 
+    }
 }
 @media(min-width:768px){
     .banner-dw{
-        background-position-x: 45rem;
-        background-size: 90%;
+        background-position-x: 55rem;
+        /* background-size: 90%; */
     }
     .banner-dw h1{
-        font-size: 6rem;
+        /* font-size: 6rem; */
         margin: 0 5rem;
         padding-left: 4rem;
         padding-top: 9rem;
     }
     .banner-dw h1 span{
-        font-size: 6.5rem;
+        /* font-size: 6.5rem; */
     }
     .txt-dw{
         display: block;
@@ -1145,11 +1165,11 @@ textarea::placeholder{
         background-position-x: 80rem;
     }
     .banner-dw h1{
-        font-size: 8rem;
+        /* font-size: 8rem; */
         padding-left: 15%;
     }
     .banner-dw h1 span{
-        font-size: 9rem;
+        /* font-size: 9rem; */
         line-height: 8rem;
     }
     .txt-dw{
