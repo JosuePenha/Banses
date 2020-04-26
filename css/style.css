@@ -1108,7 +1108,7 @@ textarea::placeholder{
     width: 70%;
     margin-left: 15%;
     font-family: texto;
-    font-size: 3vw;
+    font-size: 4vw;
     color: #ffffff;
     text-align: center;
 }
@@ -1160,7 +1160,7 @@ textarea::placeholder{
     background-color: #0F0F0F;
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-x: -15rem;
+    background-position-x: -10rem;
     height: 100vh;
     margin-top: -5rem;
 }
@@ -1196,7 +1196,6 @@ textarea::placeholder{
     width: 80%;
     padding-left: .5rem;
     color: #ffffff;
-    font-size: 2vw;
 }
 @media(min-width:768px){
     .dw-two-content{
