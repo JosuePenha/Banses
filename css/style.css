@@ -1083,111 +1083,57 @@ textarea::placeholder{
 }
 
 /***********SECTOR DE SERVICIOS***************/
-.banner-dw-content{
-    background-color: #000000;
+.banner-dw{
+    margin-top: 10rem;
     width: 100%;
-    height: 100vh;
-    margin-top: 5rem;
+}
+.sector-two{
+    background-color: #000000;
+}
+.banner-dw{
+    width: 100%;
+}
+.banner-dw h1{
+    padding-top: 5rem;
+    color: #D8006F;
+    text-align: center;
+    font-family: font-titulo2;
+    font-size: 9.5vw;
+    line-height: 1;
+}
+.banner-dw h1 span{
+    font-size: 9.5vw;
 }
 .txt-dw{
-    display: block;
-    width: 55%;
-    color: #fff;
-    padding-top: 1rem;
-    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    font-family: texto;
+    color: #ffffff;
+    text-align: center;
 }
 .txt-dw span{
     display: none;
 }
-.banner-dw{
-    background-image: url(../imagenes/Dw.svg);
-    background-repeat: no-repeat;
-    background-position-x: 25rem;
-    background-position-y: 18rem;
-    /* background-size: 120%; */
-    height: 100vh;
-    width: 100%; 
-}
-.banner-dw h1{
-    color: #D8006F;
-    font-size: 8vw;
-    font-family: font-titulo1;
-    font-weight: bold;
-    margin: 0 3rem;
-    padding-top: 25rem;
-    text-transform: uppercase;
-    padding-left: 4rem;
-    line-height: 1;
-    animation: bounceInLeft 2s;
-}
-.banner-dw h1 span{
-    font-size: 8.5vw;
-}
-@media screen and (min-width:350px) and (min-width:768px){
-    .banner-dw{
-        background-image: url(../imagenes/Dw.svg);
-        background-repeat: no-repeat;
-        background-position-x: 25rem;
-        background-position-y: 18rem;
-        
-        height: 100vh;
-        width: 100%; 
-    }
+.img-dw img{
+    width: 100%;
+    margin-top: 3rem;
 }
 @media(min-width:768px){
-    .banner-dw{
-        background-position-x: 55rem;
-        /* background-size: 90%; */
-    }
-    .banner-dw h1{
-        /* font-size: 6rem; */
-        margin: 0 5rem;
-        padding-left: 4rem;
-        padding-top: 9rem;
-    }
-    .banner-dw h1 span{
-        /* font-size: 6.5rem; */
-    }
-    .txt-dw{
-        display: block;
-        width: 50%;
-        color: #ffffff;
-        font-family: texto;
-        font-size: 1.5rem;
-        text-align: justify;
-        padding-top: 2rem;
-        padding-left: 1rem;
-    }
+  
 }
 @media(min-width:1024px){
-    .banner-dw{
-        background-size: 60%;
-        background-position-x: 80rem;
-    }
-    .banner-dw h1{
-        /* font-size: 8rem; */
-        padding-left: 15%;
-    }
-    .banner-dw h1 span{
-        /* font-size: 9rem; */
-        line-height: 8rem;
-    }
-    .txt-dw{
-        font-size: 1.8rem;
-        line-height: 1.5;
-        margin: 0 10%;
-    }
+    
 }
 /*****************DW-TWO******************/
 .dw-two-content{
     background-color: #0F0F0F;
     height: 80vh;
-    margin: 0;
+    margin-top: -3rem;
     padding: 0;
 }
 .dw-two-content h1{
     margin: 0;
-    padding:  4rem 0 2rem 0;
+    padding:  7rem 0 2rem 0;
     text-align: center;
     font-size: 4rem;
     color: #32A6DF;
