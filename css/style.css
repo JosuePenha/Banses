@@ -1137,7 +1137,7 @@ textarea::placeholder{
 /*****************DW-TWO******************/
 .dw-two-content{
     background-color: #0F0F0F;
-    height: 100vh;
+    height: 80vh;
     margin-top: -5rem;
 }
 .dw-two-content h1{
@@ -1161,7 +1161,7 @@ textarea::placeholder{
     background-repeat: no-repeat;
     background-position-y: 50%;
     background-position-x: -10rem;
-    height: 100vh;
+    height: 100%;
     margin-top: -5rem;
 }
 .dw-two ul{
@@ -1169,7 +1169,7 @@ textarea::placeholder{
     height: 100%;
     padding-top: 10rem;
     text-align: center;
-    margin: 0;
+    margin-top: -5rem;
 }
 .dw-two ul li{
     float: right;
