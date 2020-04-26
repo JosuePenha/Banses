@@ -1098,16 +1098,17 @@ textarea::placeholder{
     color: #D8006F;
     text-align: center;
     font-family: font-titulo1;
-    font-size: 9.5vw;
-    line-height: 1;
+    font-size: 10vw;
+    line-height: 0.9;
 }
 .banner-dw h1 span{
-    font-size: 9.5vw;
+    font-size: 10.5vw;
 }
 .txt-dw{
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     font-family: texto;
+    font-size: 3vw;
     color: #ffffff;
     text-align: center;
 }
@@ -1120,7 +1121,15 @@ textarea::placeholder{
     margin-top: 3rem;
 }
 @media(min-width:768px){
-  
+    .banner-dw h1{
+        margin-bottom: 1rem;
+    }
+    .txt-dw{
+        font-size: 1.2vw;
+    }
+    .txt-dw span{
+        display: block;
+    }
 }
 @media(min-width:1024px){
     
@@ -1128,13 +1137,11 @@ textarea::placeholder{
 /*****************DW-TWO******************/
 .dw-two-content{
     background-color: #0F0F0F;
-    height: 80vh;
-    margin-top: -3rem;
-    padding: 0;
+    height: 100vh;
+    margin-top: -5rem;
 }
 .dw-two-content h1{
-    margin: 0;
-    padding:  7rem 0 2rem 0;
+    padding:  8rem 0 2rem 0;
     text-align: center;
     font-size: 4rem;
     color: #32A6DF;
@@ -1154,11 +1161,13 @@ textarea::placeholder{
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: -15rem;
-    height: 100%;
+    height: 100vh;
+    margin-top: -5rem;
 }
 .dw-two ul{
     width: 100%;
-    padding-top: 10%;
+    height: 100%;
+    padding-top: 10rem;
     text-align: center;
     margin: 0;
 }
@@ -1171,7 +1180,10 @@ textarea::placeholder{
     text-align: justify;
     font-family: texto;
     list-style: none; 
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+}
+.dw-two ul li:first-of-type{
+    margin-top: 0;
 }
 .dw-two ul li i{
     align-items: center;
@@ -1184,4 +1196,30 @@ textarea::placeholder{
     width: 80%;
     padding-left: .5rem;
     color: #ffffff;
+    font-size: 2vw;
+}
+@media(min-width:768px){
+    .dw-two-content{
+        margin-top: -8rem;
+    }
+    .dw-two{
+        background-position-x: 4rem;
+        background-position-y: 40%;
+    }
+    .dw-two ul{
+        padding-top: 5rem;
+    }
+    .sec-one{
+        margin-left: 4rem;
+    }
+    .sec-two{
+        margin-left: 8rem;
+    }
+    .sec-three{
+        margin-left: 12rem;
+    }
+    .sec-centro{
+        margin-left: 16rem;
+    }
+    
 }
