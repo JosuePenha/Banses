@@ -1097,12 +1097,12 @@ textarea::placeholder{
     padding-top: 5rem;
     color: #D8006F;
     text-align: center;
-    font-family: font-titulo1;
-    font-size: 10vw;
+    font-family: quantify;
+    font-size: 12vw;
     line-height: 0.9;
 }
 .banner-dw h1 span{
-    font-size: 10.5vw;
+    font-size: 12.5vw;
 }
 .txt-dw{
     width: 70%;
@@ -1136,8 +1136,8 @@ textarea::placeholder{
 }
 /*****************DW-TWO******************/
 .dw-two-content{
-    background-color: #0F0F0F;
-    height: 80vh;
+    background-color: #0D0D0D;
+    height: 100vh;
     margin-top: -5rem;
 }
 .dw-two-content h1{
@@ -1157,12 +1157,11 @@ textarea::placeholder{
 }
 .dw-two{
     background-image: url(../imagenes/Dw2.svg);
-    background-color: #0F0F0F;
     background-repeat: no-repeat;
     background-position-y: 50%;
     background-position-x: -10rem;
     height: 100%;
-    margin-top: -5rem;
+    margin-top: 0rem;
 }
 .dw-two ul{
     width: 100%;
@@ -1197,16 +1196,22 @@ textarea::placeholder{
     padding-left: .5rem;
     color: #ffffff;
 }
+.contact-up{
+    margin-top: -3rem;
+}
 @media(min-width:768px){
     .dw-two-content{
         margin-top: -8rem;
+        height: 100vh;
     }
     .dw-two{
-        background-position-x: 4rem;
+        background-position-x: 8rem;
         background-position-y: 40%;
+        background-size: 45%;
     }
     .dw-two ul{
-        padding-top: 5rem;
+        padding-top: 8rem;
+        margin-left: 10rem;
     }
     .sec-one{
         margin-left: 4rem;
@@ -1220,5 +1225,8 @@ textarea::placeholder{
     .sec-centro{
         margin-left: 16rem;
     }
-    
+    .dw-two ul li p{
+        width: 40%;
+        font-size: 1.5rem;
+    }
 }
