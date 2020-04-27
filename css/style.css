@@ -18,6 +18,14 @@
     font-family: texto;
     src: url(../fuentes/texto.otf);
 }
+@font-face{
+    font-family: primetime;
+    src: url(../fuentes/primetime.ttf);
+}
+@font-face{
+    font-family: kenya;
+    src: url(../fuentes/kenyan.ttf);
+}
 html {
     line-height: 1.4;
     box-sizing: border-box;
@@ -1097,18 +1105,18 @@ textarea::placeholder{
     padding-top: 5rem;
     color: #D8006F;
     text-align: center;
-    font-family: quantify;
+    font-family: kenya;
     font-size: 12vw;
-    line-height: 0.9;
+    line-height: 1;
 }
 .banner-dw h1 span{
-    font-size: 12.5vw;
+    font-size: 13vw;
 }
 .txt-dw{
     width: 70%;
     margin-left: 15%;
     font-family: texto;
-    font-size: 4vw;
+    font-size: 3vw;
     color: #ffffff;
     text-align: center;
 }
@@ -1123,6 +1131,10 @@ textarea::placeholder{
 @media(min-width:768px){
     .banner-dw h1{
         margin-bottom: 1rem;
+        font-size: 5vw;
+    }
+    .banner-dw h1 span{
+        font-size: 8.5vw;
     }
     .txt-dw{
         font-size: 1.2vw;
@@ -1132,13 +1144,15 @@ textarea::placeholder{
     }
 }
 @media(min-width:1024px){
-    
+    .sector-two{
+        margin-top: -2rem;
+    }
 }
 /*****************DW-TWO******************/
 .dw-two-content{
     background-color: #0D0D0D;
-    height: 100vh;
-    margin-top: -5rem;
+    height: 110vh;
+    margin-top: -6rem;
 }
 .dw-two-content h1{
     padding:  8rem 0 2rem 0;
@@ -1156,26 +1170,31 @@ textarea::placeholder{
     margin-top: 5.5rem;
 }
 .dw-two{
-    background-image: url(../imagenes/Dw2.svg);
+    /* background-image: url(../imagenes/Dw2.svg);
     background-repeat: no-repeat;
     background-position-y: 50%;
-    background-position-x: -10rem;
-    height: 100%;
-    margin-top: 0rem;
+    background-position-x: -10rem; */
+    width: 100%;
+    display: flex;
+    height: 70%;
+    align-items: center;
+}
+.dw-two img{
+    margin-top: 20%;
+    width: 80%;
+    height: 80%;
 }
 .dw-two ul{
-    width: 100%;
-    height: 100%;
-    padding-top: 10rem;
-    text-align: center;
-    margin-top: -5rem;
+    padding-left: 0;
+    align-items: center;
+    /* padding-top: 4rem; */
 }
 .dw-two ul li{
     float: right;
     right: 0;
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 100%;
     text-align: justify;
     font-family: texto;
     list-style: none; 
@@ -1191,7 +1210,7 @@ textarea::placeholder{
 }
 .dw-two ul li p{
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     width: 80%;
     padding-left: .5rem;
     color: #ffffff;
@@ -1199,19 +1218,42 @@ textarea::placeholder{
 .contact-up{
     margin-top: -3rem;
 }
+@media(min-width:500px){
+    .dw-two img{
+        margin-left: 0rem;
+        width: 60%;
+        height: 80%;
+    }
+    /* .dw-two ul{
+        padding-top: 8rem;
+    } */
+}
+@media(min-width:680px){
+    .dw-two img{
+        margin-left: 4rem;
+        width: 100%;
+        height: 100%;
+    }
+}
 @media(min-width:768px){
     .dw-two-content{
         margin-top: -8rem;
         height: 100vh;
     }
     .dw-two{
-        background-position-x: 8rem;
-        background-position-y: 40%;
-        background-size: 45%;
+        margin-top: -10rem;
+        padding: 0;
+        height: 100vh;
+        text-align: center;
+    }
+    .dw-two img{
+        width: 768px;
+        padding-top: 2rem;
+        margin-left: 8rem;
     }
     .dw-two ul{
-        padding-top: 8rem;
-        margin-left: 10rem;
+        width: 80%;
+        margin-left: 0rem;
     }
     .sec-one{
         margin-left: 4rem;
@@ -1228,5 +1270,57 @@ textarea::placeholder{
     .dw-two ul li p{
         width: 40%;
         font-size: 1.5rem;
+    }
+}
+@media(min-width:1024px){
+    .dw-two-content{
+        height: 150vh;
+        margin-top: -10rem;
+    }
+    .dw-two-content h1{
+        position: relative;
+        top: 10rem;
+        font-size: 6rem;
+        text-align: right;
+        margin: 0 35rem;
+    }
+    .dw-two-content h1::before{
+        margin-top: 8.5rem;
+        width: 15rem;
+    }
+    .dw-two{
+        justify-content: space-between;
+        margin-top: 8rem;
+    }
+    .dw-two img{
+        width: 110%;
+        height: 110%;
+        margin-top: 10rem;
+        margin-left: -10rem;
+        text-align: left;
+    }
+    .dw-two ul{
+        margin-left: 0%;
+    }
+    .dw-two ul li{
+        margin-top: 3rem;
+    }
+    .sec-one{
+        margin-left: 8rem;
+    }
+    .sec-two{
+        margin-left: 16rem;
+    }
+    .sec-three{
+        margin-left: 24rem;
+    }
+    .sec-centro{
+        margin-left: 32rem;
+    }
+    .dw-two ul li i{
+        font-size: 2.5rem !important;
+    }
+    .dw-two ul li p{
+        font-size: 1.8rem;
     }
 }
