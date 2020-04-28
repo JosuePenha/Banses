@@ -1096,7 +1096,7 @@ textarea::placeholder{
     width: 100%;
 }
 .sector-two{
-    background-color: #ffffff;
+    background-color: #000000;
 }
 .banner-dw{
     width: 100%;
@@ -1117,15 +1117,15 @@ textarea::placeholder{
     margin-left: 15%;
     font-family: texto;
     font-size: 3vw;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 .txt-dw span{
     display: none;
 }
 .img-dw img{
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 3rem;
     padding-bottom: 2rem;
 }
