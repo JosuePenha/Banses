@@ -540,6 +540,7 @@ c
 
 }
 .content-cart-one h1{
+    display: none;
     padding-top: 4rem;
     font-family: font-titulo2;
     font-size: 3rem;
@@ -632,15 +633,17 @@ c
 @media(min-width:1024px){
     .content-nosotros{
         background-size: cover;
-        height: 60rem;
+        height: auto;
     }
     .content-nosotros h1{
         font-size: 5rem;
         padding-top: 15rem;
     }
     .content-nosotros p{
+        display: block;
         width: 50%;
-        margin-left: 25%;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 2rem;
     }
     .cart-icons{
