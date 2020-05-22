@@ -1336,9 +1336,9 @@ textarea::placeholder{
 /*  MARKETING DIGITAL */
 .md-two img{
     position: relative;
-    left: -2rem;
-    width: 80% !important;
-    height: 80% !important;
+    margin-left: -10rem;
+    width: 85% !important;
+    height: 65% !important;
 }
 @media(min-width:768px){
     .md-two img{
