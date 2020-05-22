@@ -1380,7 +1380,7 @@ textarea::placeholder{
 .pa-two img{
     margin-left: -10rem;
     width: 90% !important;
-    height: 60% !important;
+    height: 50% !important;
 }
 @media(min-width:768px){
     .img-pa img{
