@@ -126,6 +126,7 @@ header{
     color: var(--color-primario);
     font-family:font-titulo2;
     margin-left: 4rem;
+    width: 80%;
     padding-bottom: 1rem;
 }
 /* Underline From Center */
@@ -1156,6 +1157,9 @@ textarea::placeholder{
 @media(min-width:1024px){
     .sector-two{
         margin-top: -2rem;
+    }
+    .banner-pa h1{
+        margin-top: -1rem;
     }
 }
 /*****************DW-TWO******************/
