@@ -125,8 +125,7 @@ header{
     text-decoration: none;
     color: var(--color-primario);
     font-family:font-titulo2;
-    margin-left: 2rem;
-    width: 80%;
+    margin-left: 4rem;
     padding-bottom: 1rem;
 }
 /* Underline From Center */
@@ -1123,7 +1122,7 @@ textarea::placeholder{
     margin-left: auto;
     margin-right: auto;
     font-family: texto;
-    font-size: 3vw;
+    font-size: 3.2vw;
     color: #ffffff;
     text-align: center;
 }
