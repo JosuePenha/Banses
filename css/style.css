@@ -1343,6 +1343,16 @@ textarea::placeholder{
     width: 85% !important;
     height: 65% !important;
 }
+.banner-md h1{
+    color: #32A6DF !important;
+}
+.md-two-content h1{
+    color: #D8006F !important;
+}
+.md-two ul li i{
+    color: #D8006F !important;
+}
+
 @media(min-width:768px){
     .md-two img{
         top: -2rem !important;
@@ -1367,11 +1377,13 @@ textarea::placeholder{
         margin-left: -8rem;
     }
     .md-two img{
-        width: 90% !important;
-        height: 100% !important;
+        margin-left: 0rem;
+        left: 8rem;
+        max-width: 65rem !important;
+        height: 50rem !important;
     }
     .md-two ul{
-        margin-left: 5rem;
+        margin-left: 8rem;
     }
 }
 
