@@ -1399,6 +1399,7 @@ textarea::placeholder{
     .img-pa img{
         width: 90% !important;
         height: 90% !important;
+        margin-left: -8rem;
     }
     .pa-two img{
         width: 90% !important;
