@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="Agencia Digital con profesionales altamente capacitados en las diferentes áreas del mundo digitasl.">
 
-    
+
     <meta name="keywords" content="Banses, Banses Agencia Digital, Desarollo Web, Producción Audiovisual, Aplicaciones Moviles, Marketing Digital, donde puedo hacer mi pagina web, pagina web profesional, donde puedo hacer mi video coorporativo, quien hace marketing digital, donde puedo hacer mi app, donde puedo hacer ">
-    <title>BANSES | Agencia Digital</title> 
+    <title>BANSES | Agencia Digital</title>
 
     <link rel="apple-touch-icon" href="icon-logo.png">
 
@@ -17,12 +18,13 @@
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/Normalize.css">
     <link rel="stylesheet" href="css/animacion.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://kit.fontawesome.com/fbe35ac8bd.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="content content-header">
@@ -31,128 +33,172 @@
                 <span class="icon-menu" id="btn-menu"></span>
             </div>
             <div class="content-menu" id="content-menu">
-                    <div class=" navegacion">
-                        <nav class="nav">
-                            <ul class="menu">
-                                <li><a id="menuInicio" class="hvr-underline-from-center" href="#">Inicio</a></li>
-                                <li><a id="menuServicios" class="hvr-underline-from-center" href="#"> Servicios</a></li>
-                                <li><a id="menuNosotros" class="hvr-underline-from-center" href="#"> Nosotros</a></li>
-                                <li><a id="menuPaquete" class="hvr-underline-from-center" href="#"> Paquetes</a></li>
-                                <li><a id="menuContacto"   class="hvr-underline-from-center" href="#">Contáctanos</a> </li>
-                            </ul>
-                        </nav>
-                    </div>
+                <div class=" navegacion">
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li><a id="menuInicio" class="hvr-underline-from-center" href="index.html">Inicio</a></li>
+                            <!-- <li class="submenu"> -->
+                            <li class="menu-down"><a id="menuServicios" class="hvr-underline-from-center" href="#"> Servicios</a>
+                                <ul class="subservicios" id="subservicios">
+                                    <li><a class="hvr-underline-from-center" href="Designweb.html">Desarrollo web</a></li>
+                                    <li><a class="hvr-underline-from-center" href="marketingDigital.html">Marketing Digital</a></li>
+                                    <li><a class="hvr-underline-from-center" href="developerapp.html">Aplicaciones Móviles</a></li>
+                                    <li><a class="hvr-underline-from-center" href="produccionaudiov.html">Producción Audiovisual</a></li>
+                                </ul>
+                            </li>
+                            <li><a id="menuNosotros" class="hvr-underline-from-center" href="index.html"> Nosotros</a></li>
+                            <li><a id="menuPaquete" class="hvr-underline-from-center" href="index.html"> Paquetes</a></li>
+                            <li><a id="menuContacto" class="hvr-underline-from-center" href="index.html">Contáctanos</a> </li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="content-rs">
                     <ul class="nav-rs">
-                        <li><a href="www.facebook.com" class="icon-facebook"></a></li>
-                        <li><a href="www.facebook.com" class="icon-instagram"></a></li>
-                        <li><a href="www.facebook.com" class="icon-linkedin"></a></li>
-                        <li><a href="www.facebook.com" class="icon-twitter"></a></li>
+                        <li>
+                            <a href="www.facebook.com" class="icon-facebook"></a>
+                        </li>
+                        <li>
+                            <a href="www.facebook.com" class="icon-instagram"></a>
+                        </li>
+                        <li>
+                            <a href="www.facebook.com" class="icon-linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="www.facebook.com" class="icon-twitter"></a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
     <main>
-    <section class="sector-two md">
-        <div class="banner-dw banner-pa">
-            <h1>Producción<br> Audiovisual<br></h1>
-            <p class="txt-dw">La creación de una página web permite fidelizar clientes actuales y atrae potenciales clientes en un servicio de 24 horas. La creación de esta nos permite tener presencia de marca y que el cliente conozca y pueda confiar mucho más en las empresas pues es una estrategia del posicionamiento SEO, nos permite presencia de la marca en internet y posicionarnos en los primeros resultados de Google.</p>
-        </div>
-        <div class="img-dw img-md img-pa">
-            <img src="imagenes/PR7.png" alt="Desarrollo Web">
-        </div>
-    </section>
-    <section class="dw-two-content">
-        <h1>Te Ofrecemos</h1>
-       <div class="dw-two md-two pa-two">
-           <img src="imagenes/PR1.png" alt="Diseño web">
-           <ul>
-               <li><i class="far fa-check-circle"></i><p> Diseño ux, coordinación con el cliente</p></li>
-               <li><i class="sec-one far fa-check-circle"></i><p>
-                Diseño Responsive.</p></li>
-               <li><i class="sec-two far fa-check-circle"></i><p>Área de ubicación de la empresa.</p></li>
-               <li><i class="sec-three far fa-check-circle"></i><p>Arquitectura del proyecto.</p></li>
-               <li><i class="sec-centro far fa-check-circle"></i><p>Publicidad web.</p></li>
-               <li><i class="sec-three far fa-check-circle"></i><p>Soporte 24/7.</p></li>
-               <li><i class="sec-two far fa-check-circle"></i><p>Estrategia del marketin
-                   g.</p></li>
-               <li><i class="sec-one far fa-check-circle"></i><p>Capacitación para el uso de la página web.</p></li>
-               <li><i class="far fa-check-circle"></i><p>Dominio y hosting.</p></li>
-           </ul>
-       </div>
-    </section>
-    <section id="contacto" class="contact-up content-contacto">
-        <h1>Contáctanos</h1>
-        <div class="contacto">
-            <div class="content-iconos">
-                <div class="content icons-three">
-                    <div class="icon-cont">
-                        <span><i class="fas fa-envelope"></i></span>
-                        <p>hola@banses.com</p> 
+        <section class="sector-two md">
+            <div class="banner-dw banner-pa">
+                <h1>Producción<br> Audiovisual<br></h1>
+                <p class="txt-dw">Es el conjunto de sonido e imágenes relacionadas hacia un concepto en específico. Conlleva tres etapas, preproducción, producción y postproducción
+
+                    <p>
+            </div>
+            <div class="img-dw img-md img-pa">
+                <img src="imagenes/PR7.png" alt="Desarrollo Web">
+            </div>
+        </section>
+        <section class="dw-two-content">
+            <h1>Te Ofrecemos</h1>
+            <div class="dw-two md-two pa-two">
+                <img src="imagenes/PR1.png" alt="Diseño web">
+                <ul>
+                    <li><i class="far fa-check-circle"></i>
+                        <p> Creación del concepto</p>
+                    </li>
+                    <li><i class="sec-one far fa-check-circle"></i>
+                        <p>
+                            Definición de escenarios</p>
+                    </li>
+                    <li><i class="sec-two far fa-check-circle"></i>
+                        <p>Responsabilidad de la ejecución de toda producción</p>
+                    </li>
+                    <li><i class="sec-three far fa-check-circle"></i>
+                        <p>Musicalización</p>
+                    </li>
+                    <li><i class="sec-centro far fa-check-circle"></i>
+                        <p>Post producción</p>
+                    </li>
+                    <li><i class="sec-three far fa-check-circle"></i>
+                        <p>Fotografías según rubro de cada empresa</p>
+                    </li>
+                    <li><i class="sec-two far fa-check-circle"></i>
+                        <p>Fotografía publicitaria
+                        </p>
+                    </li>
+                    <li><i class="sec-one far fa-check-circle"></i>
+                        <p>Fotografía corporativa</p>
+                    </li>
+                    <li><i class="far fa-check-circle"></i>
+                        <p>Ideas innovadoras</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="contacto" class="contact-up content-contacto">
+            <h1>Contáctanos</h1>
+            <div class="contacto">
+                <div class="content-iconos">
+                    <div class="content icons-three">
+                        <div class="icon-cont">
+                            <span><i class="fas fa-envelope"></i></span>
+                            <p>hola@banses.com</p>
+                        </div>
+                    </div>
+                    <div class="content icons-three">
+                        <div class="up-icons icon-cont">
+
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <p> Av. Republica de chile 472 <br>ofi. 405 - Jesus María</p>
+                        </div>
+                    </div>
+                    <div class="content icons-three">
+                        <div class=" icon-cont">
+                            <span><i class="fas fa-phone-volume"></i></span>
+                            <p> 975 982 228</p>
+                        </div>
                     </div>
                 </div>
-                <div class="content icons-three">
-                    <div class="up-icons icon-cont">
-                        
-                        <span><i class="fas fa-map-marker-alt"></i></span>
-                        <p> Av. Republica de chile 472 <br>ofi. 405 - Jesus María</p>
+                <div class="mapas">
+                    <div class="content form-map">
+                        <form action="index.html" method="POST" target="_blank">
+                            <div class="campo">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" name="nombre" id="nombreContacto" placeholder="Nombre o Empresa:">
+                            </div>
+                            <div class="campo">
+                                <label for="apellido">Correo:</label>
+                                <input type="text" name="correo" id="correoContacto" placeholder="Correo:">
+                            </div>
+                            <div class="campo">
+                                <label for="Nombre">Celular:</label>
+                                <input type="text" name="celular" id="celularContacto" placeholder="Celular:">
+                            </div>
+                            <div class="campo">
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea name="mensaje" id="mensajeContacto" placeholder="Mensaje:"></textarea>
+                            </div>
+                            <div class="btn-enviar">
+                                <input type="submit" id="Enviar" class="btn-enviar" value="Enviar">
+                            </div>
+                        </form>
                     </div>
-                </div>
-                <div class="content icons-three">
-                    <div class=" icon-cont">
-                        <span><i class="fas fa-phone-volume"></i></span>
-                        <p> 975 982 228</p>
+                    <div class="content-map">
+                        <div id="map" class="mapa"></div>
                     </div>
                 </div>
             </div>
-            <div class="mapas">
-                <div class="content form-map">
-                    <form action="index.html" method="POST" target="_blank">
-                        <div class="campo">
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" name="nombre" id="nombreContacto" placeholder="Nombre o Empresa:">
-                        </div>
-                        <div class="campo">
-                            <label for="apellido">Correo:</label>
-                            <input type="text" name="correo" id="correoContacto" placeholder="Correo:">
-                        </div>
-                        <div class="campo">
-                            <label for="Nombre">Celular:</label>
-                            <input type="text" name="celular" id="celularContacto" placeholder="Celular:">
-                        </div>
-                        <div class="campo">
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea name="mensaje" id="mensajeContacto" placeholder="Mensaje:" ></textarea>
-                        </div>
-                        <div class="btn-enviar">
-                            <input type="submit" id="Enviar" class="btn-enviar" value="Enviar" >
-                        </div>
-                    </form>
-                </div>
-                <div class="content-map">
-                    <div id="map" class="mapa"></div>
-                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="content-footer">
+            <img class="img-footer" src="imagenes/LOGO-FINAL.png" alt="logo">
+            <div class="content content-rs centro">
+                <ul class="nav-rs">
+                    <li>
+                        <a href="www.facebook.com" class="icon-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="www.facebook.com" class="icon-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="www.facebook.com" class="icon-linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="www.facebook.com" class="icon-twitter"></a>
+                    </li>
+                </ul>
             </div>
-        </div>    
-    </section>  
-</main>
-<footer>
-    <div class="content-footer">
-        <img class="img-footer" src="imagenes/LOGO-FINAL.png" alt="logo">
-        <div class="content content-rs centro">
-            <ul class="nav-rs">
-                <li><a href="www.facebook.com" class="icon-facebook"></a></li>
-                <li><a href="www.facebook.com" class="icon-instagram"></a></li>
-                <li><a href="www.facebook.com" class="icon-linkedin"></a></li>
-                <li><a href="www.facebook.com" class="icon-twitter"></a></li>
-            </ul>
+            <div class="footer-end">
+                <p class="content"> ©2020 BANSES Agencia Digital. All Rights Reserved. Design by <span>BANSES</span></p>
+            </div>
         </div>
-        <div class="footer-end">
-            <p class="content"> ©2020 BANSES Agencia Digital. All Rights Reserved. Design by <span>BANSES</span></p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
     <script src="js/menu.js"></script>
     <script src="js/mapa.js"></script>
@@ -163,4 +209,5 @@
     <script src="js/animatescroll.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
