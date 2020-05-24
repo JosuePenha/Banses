@@ -56,7 +56,10 @@
     animation: vanishOut 0.8s infinite;
     color: #D8006F;
 }
-
+.service:hover #icons{
+  animation: vanishOut 0.8s infinite;
+  color: #D8006F;
+}
 @-webkit-keyframes fadeInUp {
     from {
       opacity: 0;
